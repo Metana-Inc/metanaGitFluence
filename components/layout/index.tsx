@@ -40,7 +40,7 @@ export default function Layout({
               href="/"
               className="relative flex items-center font-display text-2xl"
             >
-              <p className="font-sans font-bold text-white">GitFluence</p>
+              <p className="font-sans font-bold text-white">MetaGitFluence</p>
             </Link>
 
             <div>

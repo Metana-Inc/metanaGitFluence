@@ -21,7 +21,7 @@ export default function Home() {
       <div className="max-w-3xl px-5 xl:px-0">
         <div className="mx-auto mb-5 flex max-w-fit translate-y-[-1rem] animate-fade-in items-center justify-center space-x-2 overflow-hidden rounded-full border border-light/20 bg-radial-gradient px-5 py-1 opacity-0">
           <p className="text-sm font-semibold text-gray">
-            Fast & Easy Git Command Generator
+            Fast & Easy Git Command Generator by Metana
           </p>
         </div>
         <h1 className="translate-y-[-1rem] animate-fade-in bg-gradient-to-br from-light to-stone-300 bg-clip-text text-center font-display text-4xl font-bold text-transparent opacity-0 drop-shadow-sm [--animation-delay:100ms] md:text-7xl md:leading-[5rem]">
@@ -31,6 +31,8 @@ export default function Home() {
           <Balancer>
             The AI-driven solution that helps you quickly find the right
             command. Get started with Git Command Generator today and save time.
+
+            forked from <a href="https://github.com/geovanesantana/gitfluence">Gitfluence</a>
           </Balancer>
         </p>
         <div className="mx-auto mt-10 flex items-center justify-center space-x-5">
@@ -99,7 +101,7 @@ const steps = [
     icon: <Prompt className="h-8 w-8 text-yellow" />,
     title: "Receive suggestions",
     description:
-      "Based on your description, the GitFluence will use its AI-driven solution to suggest the more relevant git commands.",
+      "Based on your description, the MetaGitFluence will use its AI-driven solution to suggest the more relevant git commands.",
   },
   {
     icon: <Copy className="h-8 w-8 text-yellow" />,

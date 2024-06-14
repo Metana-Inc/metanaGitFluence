@@ -220,9 +220,9 @@ export default function Privacy() {
               contact us using the following details:{" "}
             </p>
             <p>
-              GitFluence
+              MetaGitFluence
               <br />
-              contact@gitfluence.com{" "}
+              info@metana.io{" "}
             </p>
           </div>
         </div>
